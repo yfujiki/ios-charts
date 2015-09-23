@@ -135,7 +135,7 @@ public class PieChartView: PieRadarChartViewBase
     }
     
     /// calculates the needed angles for the chart slices
-    private func calcAngles()
+    func calcAngles()
     {
         _drawAngles = [CGFloat]()
         _absoluteAngles = [CGFloat]()
